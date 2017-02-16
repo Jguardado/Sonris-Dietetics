@@ -1,0 +1,22 @@
+{
+  "name": "sonris-dietetics",
+  "version": "1.0.0",
+  "description": "an API to sonrisdietetics inventory",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jguardado/Sonris-Dietetics.git"
+  },
+  "author": "Juan Guardado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jguardado/Sonris-Dietetics/issues"
+  },
+  "homepage": "https://github.com/Jguardado/Sonris-Dietetics#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
