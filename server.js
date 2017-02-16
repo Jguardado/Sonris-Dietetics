@@ -1,7 +1,6 @@
 var express = require('express');
 var path = require('path');
 var app = express();
-var store = require("./routes")
 var db = require('./db.js');
 
 var port = process.env.PORT || '3000';
