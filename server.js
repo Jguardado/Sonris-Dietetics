@@ -5,8 +5,9 @@ var db = require('./db.js');
 
 var port = process.env.PORT || '3000';
 
-app.get('/', function (req, res) {
-  res.send("Thank you for visting our API")
+
+app.get('/',function(req,res){
+  res.sendFile(__dirname + '/index.html');
 });
 
 app.get('/api/store', db.getAllContent);
