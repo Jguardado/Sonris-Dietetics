@@ -8,6 +8,8 @@ var pgp = require('pg-promise')(options);
 var connectionString = 'postgres://localhost:5432/sonris_dietetics'
 var db = pgp(connectionString);
 
+console.log("db: ", db);
+
 function getAllContent(req, res, next) {
   console.log("getAllContent being called");
   db.any('select * from product_feed')
