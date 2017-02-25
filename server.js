@@ -40,19 +40,19 @@ app.get("/api/pics/nitrotech-performance-series-2lbs", function(req, res) {
 });
 
 app.get("/api/pics/pandy-protein-candy-soda-shaker", function(req, res) {
-  res.sendFile(__dirname + "/assests/products/pandy-protein-candy-soda-shaker")
+  res.sendFile(__dirname + "/assests/products/pandy-protein-candy-soda-shaker.jpg")
 });
 
 app.get("/api/pics/pandy-protein-candy-sour-plates", function(req, res) {
-  res.sendFile(__dirname + "/assests/products/pandy-protein-candy-sour-plates")
+  res.sendFile(__dirname + "/assests/products/pandy-protein-candy-sour-plates.jpg")
 });
 
 app.get("/api/pics/inspired-100-plant-based-protein", function(req, res) {
-  res.sendFile(__dirname + "/assests/products/inspired-100-plant-based-protein")
+  res.sendFile(__dirname + "/assests/products/inspired-100-plant-based-protein.jpg")
 });
 
 app.get("/api/pics/musclepharm-combat-powder", function(req, res) {
-  res.sendFile(__dirname + "/assests/products/musclepharm-combat-powder")
+  res.sendFile(__dirname + "/assests/products/musclepharm-combat-powder.jpg")
 });
 
 app.get("/api/pics/creatine", function(req, res) {
