@@ -72,7 +72,7 @@ app.get("/api/pics/musclepharm-bcaa", function(req, res) {
 });
 
 app.get("/api/pics/muscle-tech-amino-build", function(req, res) {
-  res.sendFile(__dirname + "/assests/products/muscle-tech-amino-build")
+  res.sendFile(__dirname + "/assests/products/muscle-tech-amino-build.jpg")
 });
 
 app.get("/api/pics/muscletech-platinum-micronised-creatine", function(req, res) {
@@ -132,10 +132,6 @@ app.get("/api/pics/hyde-v3-pf", function(req, res) {
 });
 
 app.get("/api/pics/cellucor-c4", function(req, res) {
-  res.sendFile(__dirname + "/assests/products/")
-});
-
-app.get("/api/pics/", function(req, res) {
   res.sendFile(__dirname + "/assests/products/cellucor-c4.jpeg")
 });
 
