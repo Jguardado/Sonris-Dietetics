@@ -104,16 +104,58 @@ app.get("/api/pics/stronggirl-smart-weightloss", function(req, res) {
 });
 
 app.get("/api/pics/pes-norcodrene", function(req, res) {
-  res.sendFile(__dirname + "/assests/products/pes-norcodrene.jpg")
+  res.sendFile(__dirname + "/assests/products/pes-norcodrene.png")
+});
+
+app.get("/api/pics/fitmiss-tone", function(req, res) {
+  res.sendFile(__dirname + "/assests/products/fitmiss-tone.jpg")
+});
+
+app.get("/api/pics/dedicated-nutrition-unstoppable", function(req, res) {
+  res.sendFile(__dirname + "/assests/products/dedicated-nutrition-unstoppable.jpg")
+});
+
+app.get("/api/pics/no-xplode-3-0-12-servings", function(req, res) {
+  res.sendFile(__dirname + "/assests/products/no-xplode-3-0-12-servings.jpg")
+});
+
+app.get("/api/pics/the-curse", function(req, res) {
+  res.sendFile(__dirname + "/assests/products/the-curse.jpg")
+});
+
+app.get("/api/pics/stronggirl-pre-workout", function(req, res) {
+  res.sendFile(__dirname + "/assests/products/stronggirl-pre-workout.jpg")
+});
+
+app.get("/api/pics/hyde-v3-pf", function(req, res) {
+  res.sendFile(__dirname + "/assests/products/hyde-v3-pf.png")
+});
+
+app.get("/api/pics/cellucor-c4", function(req, res) {
+  res.sendFile(__dirname + "/assests/products/")
+});
+
+app.get("/api/pics/", function(req, res) {
+  res.sendFile(__dirname + "/assests/products/cellucor-c4.jpeg")
+});
+
+app.get("/api/pics/fitmiss-balance-120-capsules", function(req, res) {
+  res.sendFile(__dirname + "/assests/products/fitmiss-balance-120-capsules.jpg")
+});
+
+app.get("/api/pics/muscle-pharm-core-series-fish-oil", function(req, res) {
+  res.sendFile(__dirname + "/assests/products/muscle-pharm-core-series-fish-oil.jpg")
+});
+
+app.get("/api/pics/muscletech-platinum-multi-vitamin", function(req, res) {
+  res.sendFile(__dirname + "/assests/products/muscletech-platinum-multi-vitamin.jpg")
 });
 
 
-
-
 // SAMPLE
-app.get("/api/pics/", function(req, res) {
-  res.sendFile(__dirname + "/assests/products/")
-})
+// app.get("/api/pics/", function(req, res) {
+//   res.sendFile(__dirname + "/assests/products/")
+// });
 
 
 
