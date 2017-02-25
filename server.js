@@ -147,6 +147,10 @@ app.get("/api/pics/muscletech-platinum-multi-vitamin", function(req, res) {
   res.sendFile(__dirname + "/assests/products/muscletech-platinum-multi-vitamin.jpg")
 });
 
+app.get("/api/pics/mutant-creakong-300g", function(req, res) {
+  res.sendFile(__dirname + "/assests/products/mutant-creakong-300g.jpeg")
+});
+
 
 // SAMPLE
 // app.get("/api/pics/", function(req, res) {
