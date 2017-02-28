@@ -6,10 +6,7 @@ var db = require('./db.js');
 
 var port = process.env.PORT || '3000';
 
-
-app.get('/',function(req, res){
-  res.sendFile(__dirname + '/index.html');
-});
+app.use(express.static(__dirname + '/public'));
 
 app.get('/api/store', function(req, res) {
   res.sendFile(__dirname + "/product-feed.csv")
